@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background-image: url("taa.jpg");
+    max-width: 100%;
+}
+.nav a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New';
+    padding: 14px 16px;
+}
+.search-container {
+    float: right;
+    padding-right: 40px;
+}
+.search-container input[type=text] {
+    padding: 6px;
+    font-family: 'Courier New';
+    margin-top: 8px;
+    font-size: 17px;
+    border:none;
+    border-radius:500px;
+}
+.section{
+    color: white;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.section h1{
+    font-size: 40px;
+    font-family: 'Courier New';
+}
+.login-form input[type=text] {
+    border-radius:500px;
+    font-family: 'Courier New';
+    font-size: 19px;
+    border: none;
+}
+.login-form input[type=password] {
+    border-radius:500px;
+    font-family: 'Courier New';
+    font-size: 19px;
+    border: none;
+}
+.login-form input[type=submit] {
+    border-radius:500px;
+    font-family: 'Courier New';
+    font-size: 19px;
+    border: none;
+}
+img{
+    float: left;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+h3{
+    color: white;
+    font-size: 20px;
+    font-family:'Courier New';
+}
+p{
+    color:white;
+    font-family: 'Courier New';
+    font-size: 17px;
+}
+p a{
+    color:aqua;
+    font-size: 16px;
+    font-family: 'Courier New';
+
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:  black;
+   color: white;
+   font-size: 18px;
+   text-align: center;
+}
