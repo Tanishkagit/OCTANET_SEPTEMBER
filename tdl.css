@@ -1,0 +1,54 @@
+body {
+    background-color:rgb(82, 79, 79);
+    font-family:'Gill Sans';
+}
+.container {
+    width: 360px;
+    text-align: center;
+    background-color: white;
+    padding: 33px;
+    margin-left: 33%;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 10%;
+}
+h1 {
+    color:darkred;
+    font-size: 35px;
+}
+input {
+    border: 1px solid black;
+    background-color:rgb(22, 21, 21);
+    color: white;
+    font-size: 19px;
+    font-family: 'Courier New';
+    width: 270px;
+    padding: 8px;
+    outline: none;
+    border-radius: 30px;
+}
+button {
+    width: 60px;
+    border: 1px solid black;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 20px;
+}
+.text ul {
+    position: relative;
+    background-color:darkred;
+    font-size: 20px;
+    color:white;
+    text-align: left;
+    border-radius: 10px;
+    padding: 7px;
+    font-family: 'Courier New';
+
+}
+.text ul i {
+    position: absolute;
+    right: 10px;
+  }
