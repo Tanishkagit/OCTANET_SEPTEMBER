@@ -1,0 +1,19 @@
+body{
+    background-color:gray;
+                                                       
+}
+h1{
+    letter-spacing: 3px;
+}
+.container{
+    background-color:darkgrey;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow:5px 5px 20px whitesmoke;
+    animation: container 3s infinite;
+    letter-spacing: 2px;
+}
