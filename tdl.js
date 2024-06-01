@@ -1,3 +1,4 @@
+//javascript code for to do list..
 let inputs = document.getElementById("inp");
 let text = document.querySelector(".text");
 
