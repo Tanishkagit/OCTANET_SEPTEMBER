@@ -44,6 +44,9 @@ html, body{
     font-weight: 600;
 
 }
+.nav-part2 button:hover{
+    background-color: blue;
+}
 .container{
     width: 100%;
     height:calc(100% - 100px);
