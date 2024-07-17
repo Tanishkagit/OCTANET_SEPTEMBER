@@ -109,7 +109,7 @@ html, body{
 .nav-part2 i{
     display: block;
     font-size:4.5vw;
-}
+    }
 .container{
     height:calc(100% - 60px);
     flex-direction: column;
