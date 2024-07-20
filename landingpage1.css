@@ -73,7 +73,7 @@ html, body{
 .left button{
     font-size:1.5vw;
     padding: 1.3vw 2.3vw;
-    background-color:#2BB673;
+    background-color: #2BB673;
     border:none;
     color: white;
     border-radius: 5px;
@@ -92,7 +92,7 @@ html, body{
 }
 @media (max-width:600px){
 .nav{
-    background-color:#2BB673 ;
+    background-color: #2BB673 ;
     padding: 0 6vw;
     height: 60px;
 }
