@@ -1,9 +1,9 @@
-//javascript code for to do list..
+
 let inputs = document.getElementById("inp");
 let text = document.querySelector(".text");
 
 function Add() {
-    if(inputs.value == "")
+    if(inputs.value == " ")
     {
         alert("please enter task")
     }
@@ -12,7 +12,7 @@ function Add() {
         let newEle = document.createElement("ul");
         newEle.innerHTML=`${inputs.value}<i class="fa fa-trash-o"></i>`;
         text.appendChild(newEle);
-        inputs.value="";
+        inputs.value=" ";
         newEle.querySelector("i").addEventListener("click", remove);
         function remove() {
             newEle.remove()
